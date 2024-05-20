@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{A1BAC407-7F3F-4681-A67C-23EE7A02A8E9}" SchemaVersion="110" RootDocumentID="{836CE505-ED55-4323-AFA6-8CFF783DBE71}" ParentDocumentID="{836CE505-ED55-4323-AFA6-8CFF783DBE71}">
+	<Switches>
+		<WorkUnit Name="Player" ID="{A1BAC407-7F3F-4681-A67C-23EE7A02A8E9}" OwnerID="{836CE505-ED55-4323-AFA6-8CFF783DBE71}" PersistMode="Nested"/>
+	</Switches>
+</WwiseDocument>

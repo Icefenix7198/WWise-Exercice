@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="145">
+	<RootPaths>
+		<ProjectRoot>../../../../../../SaraAndEricProject</ProjectRoot>
+		<SourceFilesRoot>../../../../../../SaraAndEricProject/.cache/Windows</SourceFilesRoot>
+		<SoundBanksRoot>.</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>../../../../../../SaraAndEricProject/GeneratedSoundBanks/Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<SoundBanks>
+		<SoundBank Id="133642231" Type="User" Language="SFX" Hash="{4882183A-52C7-C6D0-BA52-A112932A4EA3}">
+			<ShortName>General</ShortName>
+			<Path>General.bnk</Path>
+			<Media>
+				<File Id="5548248" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Sand\BAS_Player_Footstep_sand_walk_01.wav</ShortName>
+					<CachePath>SFX/Sand/BAS_Player_Footstep_sand_walk_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="20344204" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Rubble\BAS_Player_Footstep_rubble_walk_03.wav</ShortName>
+					<CachePath>SFX/Rubble/BAS_Player_Footstep_rubble_walk_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="33223332" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Stone\BAS_Player_Footstep_stone_walk_03.wav</ShortName>
+					<CachePath>SFX/Stone/BAS_Player_Footstep_stone_walk_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="46070625" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Stone\BAS_Player_Footstep_stone_walk_04.wav</ShortName>
+					<CachePath>SFX/Stone/BAS_Player_Footstep_stone_walk_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="48339348" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Grass\BAS_Player_Footstep_grass_walk_06.wav</ShortName>
+					<CachePath>SFX/Grass/BAS_Player_Footstep_grass_walk_06_10C4C929.wem</CachePath>
+				</File>
+				<File Id="54322486" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Grass\BAS_Player_Footstep_grass_walk_02.wav</ShortName>
+					<CachePath>SFX/Grass/BAS_Player_Footstep_grass_walk_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="58766871" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Dirt\BAS_Player_Footstep_dirt_walk_01.wav</ShortName>
+					<CachePath>SFX/Dirt/BAS_Player_Footstep_dirt_walk_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="72296269" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Water\BAS_Player_Footstep_water_walk_05.wav</ShortName>
+					<CachePath>SFX/Water/BAS_Player_Footstep_water_walk_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="94333124" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Water\BAS_Player_Footstep_water_walk_01.wav</ShortName>
+					<CachePath>SFX/Water/BAS_Player_Footstep_water_walk_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="201120884" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Sand\BAS_Player_Footstep_sand_walk_06.wav</ShortName>
+					<CachePath>SFX/Sand/BAS_Player_Footstep_sand_walk_06_10C4C929.wem</CachePath>
+				</File>
+				<File Id="227436799" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Sand\BAS_Player_Footstep_sand_walk_05.wav</ShortName>
+					<CachePath>SFX/Sand/BAS_Player_Footstep_sand_walk_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="239855430" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Wood\BAS_Player_Footstep_wood_walk_05.wav</ShortName>
+					<CachePath>SFX/Wood/BAS_Player_Footstep_wood_walk_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="257118344" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Dirt\BAS_Player_Footstep_dirt_walk_04.wav</ShortName>
+					<CachePath>SFX/Dirt/BAS_Player_Footstep_dirt_walk_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="317155278" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Sand\BAS_Player_Footstep_sand_walk_02.wav</ShortName>
+					<CachePath>SFX/Sand/BAS_Player_Footstep_sand_walk_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="388940027" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Sand\BAS_Player_Footstep_sand_walk_03.wav</ShortName>
+					<CachePath>SFX/Sand/BAS_Player_Footstep_sand_walk_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="402514913" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Wood\BAS_Player_Footstep_wood_walk_06.wav</ShortName>
+					<CachePath>SFX/Wood/BAS_Player_Footstep_wood_walk_06_10C4C929.wem</CachePath>
+				</File>
+				<File Id="413932999" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Rubble\BAS_Player_Footstep_rubble_walk_04.wav</ShortName>
+					<CachePath>SFX/Rubble/BAS_Player_Footstep_rubble_walk_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="457494151" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Grass\BAS_Player_Footstep_grass_walk_03.wav</ShortName>
+					<CachePath>SFX/Grass/BAS_Player_Footstep_grass_walk_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="510774158" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Water\BAS_Player_Footstep_water_walk_06.wav</ShortName>
+					<CachePath>SFX/Water/BAS_Player_Footstep_water_walk_06_10C4C929.wem</CachePath>
+				</File>
+				<File Id="537944306" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Sand\BAS_Player_Footstep_sand_walk_04.wav</ShortName>
+					<CachePath>SFX/Sand/BAS_Player_Footstep_sand_walk_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="578985757" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Dirt\BAS_Player_Footstep_dirt_walk_06.wav</ShortName>
+					<CachePath>SFX/Dirt/BAS_Player_Footstep_dirt_walk_06_10C4C929.wem</CachePath>
+				</File>
+				<File Id="585659612" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Dirt\BAS_Player_Footstep_dirt_walk_02.wav</ShortName>
+					<CachePath>SFX/Dirt/BAS_Player_Footstep_dirt_walk_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="590682596" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Grass\BAS_Player_Footstep_grass_walk_05.wav</ShortName>
+					<CachePath>SFX/Grass/BAS_Player_Footstep_grass_walk_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="614190670" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Wood\BAS_Player_Footstep_wood_walk_03.wav</ShortName>
+					<CachePath>SFX/Wood/BAS_Player_Footstep_wood_walk_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="630314856" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Rubble\BAS_Player_Footstep_rubble_walk_02.wav</ShortName>
+					<CachePath>SFX/Rubble/BAS_Player_Footstep_rubble_walk_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="644455610" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Water\BAS_Player_Footstep_water_walk_03.wav</ShortName>
+					<CachePath>SFX/Water/BAS_Player_Footstep_water_walk_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="646146797" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Wood\BAS_Player_Footstep_wood_walk_02.wav</ShortName>
+					<CachePath>SFX/Wood/BAS_Player_Footstep_wood_walk_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="661821986" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Stone\BAS_Player_Footstep_stone_walk_01.wav</ShortName>
+					<CachePath>SFX/Stone/BAS_Player_Footstep_stone_walk_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="708074246" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Dirt\BAS_Player_Footstep_dirt_walk_05.wav</ShortName>
+					<CachePath>SFX/Dirt/BAS_Player_Footstep_dirt_walk_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="778539409" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Stone\BAS_Player_Footstep_stone_walk_05.wav</ShortName>
+					<CachePath>SFX/Stone/BAS_Player_Footstep_stone_walk_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="783379247" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Stone\BAS_Player_Footstep_stone_walk_02.wav</ShortName>
+					<CachePath>SFX/Stone/BAS_Player_Footstep_stone_walk_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="813287195" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Dirt\BAS_Player_Footstep_dirt_walk_03.wav</ShortName>
+					<CachePath>SFX/Dirt/BAS_Player_Footstep_dirt_walk_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="824714029" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Rubble\BAS_Player_Footstep_rubble_walk_06.wav</ShortName>
+					<CachePath>SFX/Rubble/BAS_Player_Footstep_rubble_walk_06_10C4C929.wem</CachePath>
+				</File>
+				<File Id="899321537" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Grass\BAS_Player_Footstep_grass_walk_01.wav</ShortName>
+					<CachePath>SFX/Grass/BAS_Player_Footstep_grass_walk_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="942605299" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Wood\BAS_Player_Footstep_wood_walk_04.wav</ShortName>
+					<CachePath>SFX/Wood/BAS_Player_Footstep_wood_walk_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="962844706" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Grass\BAS_Player_Footstep_grass_walk_04.wav</ShortName>
+					<CachePath>SFX/Grass/BAS_Player_Footstep_grass_walk_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="980924617" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Wood\BAS_Player_Footstep_wood_walk_01.wav</ShortName>
+					<CachePath>SFX/Wood/BAS_Player_Footstep_wood_walk_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1022523561" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Water\BAS_Player_Footstep_water_walk_02.wav</ShortName>
+					<CachePath>SFX/Water/BAS_Player_Footstep_water_walk_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1031136218" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Stone\BAS_Player_Footstep_stone_walk_06.wav</ShortName>
+					<CachePath>SFX/Stone/BAS_Player_Footstep_stone_walk_06_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1050018176" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Water\BAS_Player_Footstep_water_walk_04.wav</ShortName>
+					<CachePath>SFX/Water/BAS_Player_Footstep_water_walk_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1067268671" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Rubble\BAS_Player_Footstep_rubble_walk_05.wav</ShortName>
+					<CachePath>SFX/Rubble/BAS_Player_Footstep_rubble_walk_05_10C4C929.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2453392179" Name="Player_Footstep">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="4064446173" Id="803837735"/>
+							<MediaRefs>
+								<MediaRef Id="5548248"/>
+								<MediaRef Id="201120884"/>
+								<MediaRef Id="227436799"/>
+								<MediaRef Id="317155278"/>
+								<MediaRef Id="388940027"/>
+								<MediaRef Id="537944306"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="4064446173" Id="1216965916"/>
+							<MediaRefs>
+								<MediaRef Id="33223332"/>
+								<MediaRef Id="46070625"/>
+								<MediaRef Id="661821986"/>
+								<MediaRef Id="778539409"/>
+								<MediaRef Id="783379247"/>
+								<MediaRef Id="1031136218"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="4064446173" Id="2654748154"/>
+							<MediaRefs>
+								<MediaRef Id="72296269"/>
+								<MediaRef Id="94333124"/>
+								<MediaRef Id="510774158"/>
+								<MediaRef Id="644455610"/>
+								<MediaRef Id="1022523561"/>
+								<MediaRef Id="1050018176"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="4064446173" Id="2058049674"/>
+							<MediaRefs>
+								<MediaRef Id="239855430"/>
+								<MediaRef Id="402514913"/>
+								<MediaRef Id="614190670"/>
+								<MediaRef Id="646146797"/>
+								<MediaRef Id="942605299"/>
+								<MediaRef Id="980924617"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="4064446173" Id="2195636714" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="58766871"/>
+								<MediaRef Id="257118344"/>
+								<MediaRef Id="578985757"/>
+								<MediaRef Id="585659612"/>
+								<MediaRef Id="708074246"/>
+								<MediaRef Id="813287195"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="4064446173" Id="286660663"/>
+							<MediaRefs>
+								<MediaRef Id="20344204"/>
+								<MediaRef Id="413932999"/>
+								<MediaRef Id="630314856"/>
+								<MediaRef Id="824714029"/>
+								<MediaRef Id="1067268671"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="4064446173" Id="4248645337"/>
+							<MediaRefs>
+								<MediaRef Id="48339348"/>
+								<MediaRef Id="54322486"/>
+								<MediaRef Id="457494151"/>
+								<MediaRef Id="590682596"/>
+								<MediaRef Id="899321537"/>
+								<MediaRef Id="962844706"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+			</Events>
+			<SwitchGroups>
+				<SwitchGroup Id="4064446173" Name="Surface_Type">
+					<Switches>
+						<Switch Id="286660663" Name="Rubble"/>
+						<Switch Id="803837735" Name="Sand"/>
+						<Switch Id="1216965916" Name="Stone"/>
+						<Switch Id="2058049674" Name="Wood"/>
+						<Switch Id="2195636714" Name="Dirt"/>
+						<Switch Id="2654748154" Name="Water"/>
+						<Switch Id="4248645337" Name="Grass"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{986487A9-2683-E47A-8688-3D0FE6FDB954}">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="3803692087" Name="Master Audio Bus"/>
+			</Busses>
+			<SwitchGroups>
+				<SwitchGroup Id="4064446173" Name="Surface_Type">
+					<Switches>
+						<Switch Id="286660663" Name="Rubble"/>
+						<Switch Id="803837735" Name="Sand"/>
+						<Switch Id="1216965916" Name="Stone"/>
+						<Switch Id="2058049674" Name="Wood"/>
+						<Switch Id="2195636714" Name="Dirt"/>
+						<Switch Id="2654748154" Name="Water"/>
+						<Switch Id="4248645337" Name="Grass"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{8BD92915-3748-9B12-13EE-031F4B44B339}</FileHash>
+</SoundBanksInfo>
