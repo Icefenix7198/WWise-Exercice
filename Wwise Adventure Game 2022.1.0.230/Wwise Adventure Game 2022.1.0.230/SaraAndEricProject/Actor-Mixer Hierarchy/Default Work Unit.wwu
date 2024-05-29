@@ -524,6 +524,18 @@
 								<Folder Name="Ambient_Emitters" ID="{A5E99470-C5E7-47E4-8584-A4C618B57727}" ShortID="631369699">
 									<ChildrenList>
 										<Sound Name="BAS_Crystal_Ringing" ID="{D9C08833-1CEB-4949-943C-997F4DF6E33C}" ShortID="872670068">
+											<PropertyList>
+												<Property Name="Lowpass" Type="int16">
+													<ValueList>
+														<Value>34</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-30</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E7FDB04F-959B-40F8-A265-1809A007B02E}"/>
@@ -590,6 +602,13 @@
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="BAS_Torch" ID="{5E3E6E8E-DA75-446D-BC0E-FFB7026A2A27}" ShortID="396567123">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>12</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E7FDB04F-959B-40F8-A265-1809A007B02E}"/>
