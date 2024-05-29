@@ -15,6 +15,7 @@
 					</ChildrenList>
 				</Event>
 				<WorkUnit Name="UI" ID="{3D35B24C-CA3D-4390-8CC4-522AFF6F7193}" PersistMode="Reference"/>
+				<WorkUnit Name="Ambient" ID="{95ABB525-A59C-4F06-BD11-9C9358318F92}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
