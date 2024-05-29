@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{A1BAC407-7F3F-4681-A67C-23EE7A02A8E9}" SchemaVersion="110" RootDocumentID="{836CE505-ED55-4323-AFA6-8CFF783DBE71}" ParentDocumentID="{836CE505-ED55-4323-AFA6-8CFF783DBE71}">
 	<Switches>
-		<WorkUnit Name="Player" ID="{A1BAC407-7F3F-4681-A67C-23EE7A02A8E9}" OwnerID="{836CE505-ED55-4323-AFA6-8CFF783DBE71}" PersistMode="Nested"/>
+		<WorkUnit Name="Player" ID="{A1BAC407-7F3F-4681-A67C-23EE7A02A8E9}" OwnerID="{836CE505-ED55-4323-AFA6-8CFF783DBE71}" PersistMode="Nested">
+			<ChildrenList>
+				<SwitchGroup Name="Player_Weapon_Type" ID="{A71F335F-6F97-4F7B-B7EB-7BC03D5C51D7}">
+					<ChildrenList>
+						<Switch Name="Axe" ID="{941D1629-D96F-4860-97E4-8A05FAC0B023}"/>
+						<Switch Name="Dagger" ID="{F8EBA36E-020E-4EDF-A8E2-15F08700D102}"/>
+						<Switch Name="Hammer" ID="{B6C347F5-4109-43B3-B81E-54B3F3F4D3D4}"/>
+						<Switch Name="PickAxe" ID="{95BEBAA6-1953-44FB-8363-3763562EA719}"/>
+						<Switch Name="Sword" ID="{737926A8-A4E8-41A5-B865-B86505C87209}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
 	</Switches>
 </WwiseDocument>

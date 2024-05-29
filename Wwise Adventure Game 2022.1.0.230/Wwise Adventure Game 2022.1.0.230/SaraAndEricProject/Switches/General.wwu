@@ -14,6 +14,7 @@
 						<Switch Name="Wood" ID="{B3B51B67-2766-45FE-8408-A47394204EAB}"/>
 						<Switch Name="Barrel" ID="{793F3140-9643-4653-803C-571B5CE4B84C}"/>
 						<Switch Name="Crate" ID="{F8BBC582-EDEB-49CC-B128-815A20D269F9}"/>
+						<Switch Name="Leaves" ID="{A57E1C1A-4E65-4657-BDAB-E963219608EE}"/>
 					</ChildrenList>
 				</SwitchGroup>
 				<SwitchGroup Name="DayOrNight" ID="{E1409216-FF4E-425E-92CF-D337CAECC233}">
