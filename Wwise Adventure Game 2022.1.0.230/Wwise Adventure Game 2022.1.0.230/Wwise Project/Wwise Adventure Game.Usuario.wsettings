@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="UserProjectSettings" SchemaVersion="110">
+	<UserProjectSettingsInfo>
+		<UserProjectSettings Name="" ID="{605223F0-6FD2-443C-9F01-4BEB17E62105}">
+			<PropertyList>
+				<Property Name="ExternalSourcesInputPath" Type="string">
+					<ValueList>
+						<Value Platform="Android_Low"></Value>
+						<Value Platform="iOS"></Value>
+						<Value Platform="Mac"></Value>
+						<Value Platform="Windows"></Value>
+						<Value Platform="Android_High"></Value>
+					</ValueList>
+				</Property>
+				<Property Name="ExternalSourcesOutputPath" Type="string">
+					<ValueList>
+						<Value Platform="Android_Low">GeneratedSoundBanks\Android_Low\</Value>
+						<Value Platform="iOS">GeneratedSoundBanks\iOS\</Value>
+						<Value Platform="Mac">GeneratedSoundBanks\Mac\</Value>
+						<Value Platform="Windows">GeneratedSoundBanks\Windows\</Value>
+						<Value Platform="Android_High">GeneratedSoundBanks\Android_High\</Value>
+					</ValueList>
+				</Property>
+				<Property Name="MeterView\LastObject1" Type="string" Value="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
+				<Property Name="MeterView\MeterMode1" Type="int32" Value="1"/>
+				<Property Name="MeterView\MeterMode1Viewpoint0" Type="int32" Value="1"/>
+				<Property Name="MeterView\MeterMode1Viewpoint1" Type="int32" Value="2"/>
+				<Property Name="MeterView\MeterMode1Viewpoint2" Type="int32" Value="3"/>
+				<Property Name="MeterView\MeterMode1Viewpoint3" Type="int32" Value="0"/>
+				<Property Name="SoundBankHeaderFilePath" Type="string" Value="GeneratedSoundBanks\"/>
+				<Property Name="SoundBankPaths" Type="string">
+					<ValueList>
+						<Value Platform="Android_Low">GeneratedSoundBanks\Android_Low\</Value>
+						<Value Platform="iOS">GeneratedSoundBanks\iOS\</Value>
+						<Value Platform="Mac">GeneratedSoundBanks\Mac\</Value>
+						<Value Platform="Windows">GeneratedSoundBanks\Windows\</Value>
+						<Value Platform="Android_High">GeneratedSoundBanks\Android_High\</Value>
+					</ValueList>
+				</Property>
+				<Property Name="SoundBankPostGenerateCustomCmdDescription" Type="string">
+					<ValueList>
+						<Value Platform="Android_Low"></Value>
+						<Value Platform="iOS"></Value>
+						<Value Platform="Mac"></Value>
+						<Value Platform="Windows"></Value>
+						<Value Platform="Android_High"></Value>
+					</ValueList>
+				</Property>
+				<Property Name="SoundBankPostGenerateCustomCmdLines" Type="string">
+					<ValueList>
+						<Value Platform="Android_Low"></Value>
+						<Value Platform="iOS"></Value>
+						<Value Platform="Mac"></Value>
+						<Value Platform="Windows"></Value>
+						<Value Platform="Android_High"></Value>
+					</ValueList>
+				</Property>
+				<Property Name="SoundBankPreGenerateCustomCmdDescription" Type="string">
+					<ValueList>
+						<Value Platform="Android_Low"></Value>
+						<Value Platform="iOS"></Value>
+						<Value Platform="Mac"></Value>
+						<Value Platform="Windows"></Value>
+						<Value Platform="Android_High"></Value>
+					</ValueList>
+				</Property>
+				<Property Name="SoundBankPreGenerateCustomCmdLines" Type="string">
+					<ValueList>
+						<Value Platform="Android_Low"></Value>
+						<Value Platform="iOS"></Value>
+						<Value Platform="Mac"></Value>
+						<Value Platform="Windows"></Value>
+						<Value Platform="Android_High"></Value>
+					</ValueList>
+				</Property>
+			</PropertyList>
+		</UserProjectSettings>
+	</UserProjectSettingsInfo>
+</WwiseDocument>

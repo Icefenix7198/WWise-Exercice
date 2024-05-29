@@ -1920,6 +1920,11 @@
 						</Folder>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="Objects" ID="{6776FEB5-050D-4F46-B27F-ED14DAF4ED22}" ShortID="282715442">
+					<ChildrenList>
+						<WorkUnit Name="Destruction" ID="{5D8247C6-3AA5-43D8-9A57-1417720165EC}" PersistMode="Reference"/>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{0F5CADAC-E8F4-498D-A3A8-0A3334BF2AEF}" SchemaVersion="110" RootDocumentID="{6E7EF8CB-8327-4B23-A870-5410A536FCC7}" ParentDocumentID="{6E7EF8CB-8327-4B23-A870-5410A536FCC7}">
+	<Events>
+		<WorkUnit Name="Destruction" ID="{0F5CADAC-E8F4-498D-A3A8-0A3334BF2AEF}" OwnerID="{6E7EF8CB-8327-4B23-A870-5410A536FCC7}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="Destruction_Container" ID="{759F4E6B-F622-4D26-BC7C-5607EC8D06CC}">
+					<ChildrenList>
+						<Action Name="" ID="{E735599D-EA9C-4B01-87D5-D296E029A18A}" ShortID="713658673">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Container" ID="{A0B080EE-2119-4D71-9E38-D27F7BDC1EA9}" WorkUnitID="{5D8247C6-3AA5-43D8-9A57-1417720165EC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Destruction_Crystal_Destroy" ID="{ABFA1BCC-82F9-4310-B5EC-DB88D78D6DCE}">
+					<ChildrenList>
+						<Action Name="" ID="{581D57B3-F8CC-47E0-A471-26C2533ED295}" ShortID="767268478">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="BAS_Crystals_Destroy" ID="{90E24C12-3538-4162-A7E0-F0CBC26B9659}" WorkUnitID="{5D8247C6-3AA5-43D8-9A57-1417720165EC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Destruction_Rock_Destroy" ID="{02FCAC74-9575-44E4-93F3-F0528E759342}">
+					<ChildrenList>
+						<Action Name="" ID="{BE67B1DC-7D07-4AC3-A180-C46B26036EDA}" ShortID="977460706">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Rock" ID="{186A702B-3379-4601-92B7-C91C685E792E}" WorkUnitID="{5D8247C6-3AA5-43D8-9A57-1417720165EC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Destruction_VolcanicBoulder_Impact" ID="{62E86B94-62D2-45CE-8F2F-87E237B6E8AA}">
+					<ChildrenList>
+						<Action Name="" ID="{13F4E9E3-A79A-4326-A632-6EB290E87B67}" ShortID="132918334">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Volcanic Boulder" ID="{58054013-D721-45CA-B5A5-09C7161F00B4}" WorkUnitID="{5D8247C6-3AA5-43D8-9A57-1417720165EC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

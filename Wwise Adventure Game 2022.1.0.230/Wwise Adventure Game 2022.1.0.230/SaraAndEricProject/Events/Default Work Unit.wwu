@@ -16,6 +16,7 @@
 				</Event>
 				<WorkUnit Name="UI" ID="{3D35B24C-CA3D-4390-8CC4-522AFF6F7193}" PersistMode="Reference"/>
 				<WorkUnit Name="Ambient" ID="{95ABB525-A59C-4F06-BD11-9C9358318F92}" PersistMode="Reference"/>
+				<WorkUnit Name="Destruction" ID="{0F5CADAC-E8F4-498D-A3A8-0A3334BF2AEF}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
