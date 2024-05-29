@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PlatformInfo>
-	<Platform Name="Windows" BasePlatform="Windows" Generator="2022.1.5.8242"/>
+	<Platform Name="Windows" BasePlatform="Windows" Generator="2022.1.13.8454"/>
 	<RootPaths>
 		<ProjectRoot>../../../../../../SaraAndEricProject</ProjectRoot>
 		<SourceFilesRoot>../../../../../../SaraAndEricProject/.cache/Windows</SourceFilesRoot>
@@ -28,5 +28,5 @@
 		<PrintObjectGuid>false</PrintObjectGuid>
 		<PrintObjectPath>false</PrintObjectPath>
 	</Settings>
-	<FileHash>{780A9003-6983-E655-618A-DDD680B87373}</FileHash>
+	<FileHash>{591F95A1-53B6-FEC2-ACE7-2173B7C111FF}</FileHash>
 </PlatformInfo>

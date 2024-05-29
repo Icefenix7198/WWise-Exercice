@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="133642231" Type="User" Language="SFX" Hash="{4882183A-52C7-C6D0-BA52-A112932A4EA3}">
+		<SoundBank Id="133642231" Type="User" Language="SFX" Hash="{AF370345-EB61-35B1-7B5F-18B7030D7472}">
 			<ShortName>General</ShortName>
 			<Path>General.bnk</Path>
 			<Media>
@@ -61,9 +61,17 @@
 					<ShortName>Wood\BAS_Player_Footstep_wood_walk_05.wav</ShortName>
 					<CachePath>SFX/Wood/BAS_Player_Footstep_wood_walk_05_10C4C929.wem</CachePath>
 				</File>
+				<File Id="244264979" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Inventory\BAS_Inventory_Open.wav</ShortName>
+					<CachePath>SFX/Inventory/BAS_Inventory_Open_10C4C929.wem</CachePath>
+				</File>
 				<File Id="257118344" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Dirt\BAS_Player_Footstep_dirt_walk_04.wav</ShortName>
 					<CachePath>SFX/Dirt/BAS_Player_Footstep_dirt_walk_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="269535940" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Inventory\BAS_Inventory_Close.wav</ShortName>
+					<CachePath>SFX/Inventory/BAS_Inventory_Close_10C4C929.wem</CachePath>
 				</File>
 				<File Id="317155278" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Sand\BAS_Player_Footstep_sand_walk_02.wav</ShortName>
@@ -93,9 +101,17 @@
 					<ShortName>Sand\BAS_Player_Footstep_sand_walk_04.wav</ShortName>
 					<CachePath>SFX/Sand/BAS_Player_Footstep_sand_walk_04_10C4C929.wem</CachePath>
 				</File>
+				<File Id="561003423" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Button\BAS_Button_Close.wav</ShortName>
+					<CachePath>SFX/Button/BAS_Button_Close_10C4C929.wem</CachePath>
+				</File>
 				<File Id="578985757" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Dirt\BAS_Player_Footstep_dirt_walk_06.wav</ShortName>
 					<CachePath>SFX/Dirt/BAS_Player_Footstep_dirt_walk_06_10C4C929.wem</CachePath>
+				</File>
+				<File Id="582535502" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Button\BAS_Button_Open.wav</ShortName>
+					<CachePath>SFX/Button/BAS_Button_Open_10C4C929.wem</CachePath>
 				</File>
 				<File Id="585659612" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Dirt\BAS_Player_Footstep_dirt_walk_02.wav</ShortName>
@@ -125,9 +141,25 @@
 					<ShortName>Stone\BAS_Player_Footstep_stone_walk_01.wav</ShortName>
 					<CachePath>SFX/Stone/BAS_Player_Footstep_stone_walk_01_10C4C929.wem</CachePath>
 				</File>
+				<File Id="692205832" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Quest Roll\BAS_QuestRoll_Open.wav</ShortName>
+					<CachePath>SFX/Quest Roll/BAS_QuestRoll_Open_10C4C929.wem</CachePath>
+				</File>
+				<File Id="692644043" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Button\BAS_Button_Over.wav</ShortName>
+					<CachePath>SFX/Button/BAS_Button_Over_10C4C929.wem</CachePath>
+				</File>
+				<File Id="702021182" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Inventory\BAS_Inventory_Scroll.wav</ShortName>
+					<CachePath>SFX/Inventory/BAS_Inventory_Scroll_10C4C929.wem</CachePath>
+				</File>
 				<File Id="708074246" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Dirt\BAS_Player_Footstep_dirt_walk_05.wav</ShortName>
 					<CachePath>SFX/Dirt/BAS_Player_Footstep_dirt_walk_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="773242386" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Button\BAS_Button_Enter.wav</ShortName>
+					<CachePath>SFX/Button/BAS_Button_Enter_10C4C929.wem</CachePath>
 				</File>
 				<File Id="778539409" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Stone\BAS_Player_Footstep_stone_walk_05.wav</ShortName>
@@ -144,6 +176,10 @@
 				<File Id="824714029" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Rubble\BAS_Player_Footstep_rubble_walk_06.wav</ShortName>
 					<CachePath>SFX/Rubble/BAS_Player_Footstep_rubble_walk_06_10C4C929.wem</CachePath>
+				</File>
+				<File Id="875759627" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Quest Roll\BAS_QuestRoll_Close.wav</ShortName>
+					<CachePath>SFX/Quest Roll/BAS_QuestRoll_Close_10C4C929.wem</CachePath>
 				</File>
 				<File Id="899321537" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Grass\BAS_Player_Footstep_grass_walk_01.wav</ShortName>
@@ -259,6 +295,51 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
+				<Event Id="156563189" Name="UI_Button_Down">
+					<MediaRefs>
+						<MediaRef Id="582535502"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="18309885" Name="UI_Button_Enter">
+					<MediaRefs>
+						<MediaRef Id="773242386"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2325560497" Name="UI_Button_Exit">
+					<MediaRefs>
+						<MediaRef Id="561003423"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="15662850" Name="UI_Button_Up">
+					<MediaRefs>
+						<MediaRef Id="692644043"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2278290679" Name="UI_Inventory_Close">
+					<MediaRefs>
+						<MediaRef Id="269535940"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2199611969" Name="UI_Inventory_Open">
+					<MediaRefs>
+						<MediaRef Id="244264979"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3749307760" Name="UI_Inventory_Roll">
+					<MediaRefs>
+						<MediaRef Id="702021182"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="808893336" Name="UI_QuestRoll_Close">
+					<MediaRefs>
+						<MediaRef Id="875759627"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="949395292" Name="UI_QuestRoll_Open">
+					<MediaRefs>
+						<MediaRef Id="692205832"/>
+					</MediaRefs>
+				</Event>
 			</Events>
 			<SwitchGroups>
 				<SwitchGroup Id="4064446173" Name="Surface_Type">
@@ -301,5 +382,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{8BD92915-3748-9B12-13EE-031F4B44B339}</FileHash>
+	<FileHash>{ECB36DFD-729A-CD6F-9E27-A4766F1CC383}</FileHash>
 </SoundBanksInfo>
