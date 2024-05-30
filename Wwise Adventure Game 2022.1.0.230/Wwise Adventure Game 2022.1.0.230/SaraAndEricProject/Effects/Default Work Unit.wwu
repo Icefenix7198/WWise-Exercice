@@ -1,6 +1,70 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{581B57D8-3366-4FAC-9D68-EC6311F23865}" SchemaVersion="110">
 	<Effects>
-		<WorkUnit Name="Default Work Unit" ID="{581B57D8-3366-4FAC-9D68-EC6311F23865}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{581B57D8-3366-4FAC-9D68-EC6311F23865}" PersistMode="Standalone">
+			<ChildrenList>
+				<Effect Name="WAG_Cave" ID="{4F6C28EF-5A8A-4F30-A4B5-25B696C61F03}" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+					<PropertyList>
+						<Property Name="DecayTime" Type="Real32" Value="3.9"/>
+						<Property Name="Density" Type="Real32" Value="41"/>
+						<Property Name="Diffusion" Type="Real32" Value="0"/>
+						<Property Name="ERLevel" Type="Real32" Value="-30"/>
+						<Property Name="EnableToneControls" Type="bool" Value="True"/>
+						<Property Name="Filter1Freq" Type="Real32" Value="260"/>
+						<Property Name="Filter1Gain" Type="Real32" Value="3"/>
+						<Property Name="Filter1InsertPos" Type="int32" Value="2"/>
+						<Property Name="Filter2InsertPos" Type="int32" Value="0"/>
+						<Property Name="Filter3Freq" Type="Real32" Value="6100"/>
+						<Property Name="Filter3Gain" Type="Real32" Value="-10.5"/>
+						<Property Name="HFDamping" Type="Real32" Value="4.15"/>
+						<Property Name="PreDelay" Type="Real32" Value="83"/>
+						<Property Name="Quality" Type="int32" Value="12"/>
+						<Property Name="ReverbLevel" Type="Real32" Value="-33"/>
+						<Property Name="RoomShape" Type="Real32" Value="51"/>
+						<Property Name="RoomSize" Type="Real32" Value="84"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="WAG_Dungeon_Core" ID="{BCE647EC-8005-402E-9673-C0D673BA18E7}" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+					<PropertyList>
+						<Property Name="DecayTime" Type="Real32" Value="4"/>
+						<Property Name="Density" Type="Real32" Value="70"/>
+						<Property Name="ERLevel" Type="Real32" Value="-24"/>
+						<Property Name="ERPattern" Type="int32" Value="9"/>
+						<Property Name="EnableToneControls" Type="bool" Value="True"/>
+						<Property Name="Filter1InsertPos" Type="int32" Value="0"/>
+						<Property Name="Filter2InsertPos" Type="int32" Value="0"/>
+						<Property Name="Filter3Freq" Type="Real32" Value="7390"/>
+						<Property Name="Filter3Gain" Type="Real32" Value="-8"/>
+						<Property Name="HFDamping" Type="Real32" Value="5.7"/>
+						<Property Name="PreDelay" Type="Real32" Value="141"/>
+						<Property Name="Quality" Type="int32" Value="14"/>
+						<Property Name="ReverbLevel" Type="Real32" Value="-23"/>
+						<Property Name="RoomSize" Type="Real32" Value="83"/>
+						<Property Name="StereoWidth" Type="Real32" Value="172"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="WAG_Dungeon_Entrance" ID="{7C333583-5C28-40C8-9ADB-1F8DF77321DC}" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+					<PropertyList>
+						<Property Name="DecayTime" Type="Real32" Value="1.9"/>
+						<Property Name="Density" Type="Real32" Value="44"/>
+						<Property Name="ERFrontBackDelay" Type="Real32" Value="63"/>
+						<Property Name="ERLevel" Type="Real32" Value="-21"/>
+						<Property Name="ERPattern" Type="int32" Value="4"/>
+						<Property Name="EnableToneControls" Type="bool" Value="True"/>
+						<Property Name="Filter1InsertPos" Type="int32" Value="0"/>
+						<Property Name="Filter2InsertPos" Type="int32" Value="0"/>
+						<Property Name="Filter3Freq" Type="Real32" Value="7960"/>
+						<Property Name="Filter3Gain" Type="Real32" Value="-15.5"/>
+						<Property Name="HFDamping" Type="Real32" Value="4.7"/>
+						<Property Name="PreDelay" Type="Real32" Value="153"/>
+						<Property Name="Quality" Type="int32" Value="16"/>
+						<Property Name="ReverbLevel" Type="Real32" Value="-29"/>
+						<Property Name="RoomShape" Type="Real32" Value="55"/>
+						<Property Name="RoomSize" Type="Real32" Value="73"/>
+						<Property Name="StereoWidth" Type="Real32" Value="155"/>
+					</PropertyList>
+				</Effect>
+			</ChildrenList>
+		</WorkUnit>
 	</Effects>
 </WwiseDocument>

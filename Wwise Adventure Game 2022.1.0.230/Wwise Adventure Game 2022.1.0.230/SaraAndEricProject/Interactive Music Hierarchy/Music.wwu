@@ -1143,7 +1143,42 @@
 						<ObjectList Name="RTPC">
 							<Reference>
 								<Local>
-									<RTPC Name="" ID="{15A92580-5894-4A15-93D2-EDF64613E7CE}" ShortID="210676914">
+									<RTPC Name="" ID="{927EBF3D-A074-49F4-BF80-120A2C3DA9BF}" ShortID="681311620">
+										<PropertyList>
+											<Property Name="PropertyName" Type="string" Value="Volume"/>
+										</PropertyList>
+										<ReferenceList>
+											<Reference Name="ControlInput">
+												<ObjectRef Name="MenuSlider_Master_Volume" ID="{61639684-F600-4F29-99D9-7FC7FAAFDB13}" WorkUnitID="{8E28DD24-7B63-44BF-A51E-FF900DD22518}"/>
+											</Reference>
+											<Reference Name="Curve">
+												<Custom>
+													<Curve Name="" ID="{04D956F8-450A-4E60-BC98-D048CD59729E}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</RTPC>
+								</Local>
+							</Reference>
+							<Reference>
+								<Local>
+									<RTPC Name="" ID="{8E4BDAD9-8962-4485-8802-BBFD49FB767F}" ShortID="955366453">
 										<PropertyList>
 											<Property Name="PropertyName" Type="string" Value="Volume"/>
 										</PropertyList>
@@ -1153,7 +1188,7 @@
 											</Reference>
 											<Reference Name="Curve">
 												<Custom>
-													<Curve Name="" ID="{379DC2BD-B7B4-4572-BDD2-EA3A758D6FF6}">
+													<Curve Name="" ID="{FE913748-25D7-4B8A-A65A-89FD0DDAAEB4}">
 														<PropertyList>
 															<Property Name="Flags" Type="int32" Value="3"/>
 														</PropertyList>

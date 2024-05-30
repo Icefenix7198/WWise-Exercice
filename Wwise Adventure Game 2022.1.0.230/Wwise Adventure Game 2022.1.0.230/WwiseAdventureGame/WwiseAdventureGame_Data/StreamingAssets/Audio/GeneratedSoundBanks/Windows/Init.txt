@@ -13,7 +13,38 @@ State	ID	Name	State Group			Notes
 	4122393694	Cave	Music_Regions			
 
 Audio Bus	ID	Name			Wwise Object Path	Notes
+	983310469	AUX			\Default Work Unit\Master Audio Bus\AUX	
+	1269715591	Region_Cave			\Default Work Unit\Master Audio Bus\AUX\Region_Cave	
+	3334061918	Region_Dungeon			\Default Work Unit\Master Audio Bus\AUX\Region_Dungeon	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	243931001	Dungeon_Forge			\Default Work Unit\Master Audio Bus\AUX\Region_Dungeon\Dungeon_Forge	
+	425911480	Dungeon_Library_Statue			\Default Work Unit\Master Audio Bus\AUX\Region_Dungeon\Dungeon_Library_Statue	
+	567469275	Dungeon_PathToForge			\Default Work Unit\Master Audio Bus\AUX\Region_Dungeon\Dungeon_PathToForge	
+	1156828694	Dungeon_Entrance			\Default Work Unit\Master Audio Bus\AUX\Region_Dungeon\Dungeon_Entrance	
+	1941785149	Dungeon_Library			\Default Work Unit\Master Audio Bus\AUX\Region_Dungeon\Dungeon_Library	
+	2026127448	Dungeon_MezzanineRoomEntrance			\Default Work Unit\Master Audio Bus\AUX\Region_Dungeon\Dungeon_MezzanineRoomEntrance	
+	2106540524	Dungeon_RoadToCore			\Default Work Unit\Master Audio Bus\AUX\Region_Dungeon\Dungeon_RoadToCore	
+	2213850905	Dungeon_Core			\Default Work Unit\Master Audio Bus\AUX\Region_Dungeon\Dungeon_Core	
+	3352684520	CaveEntrance			\Default Work Unit\Master Audio Bus\AUX\Region_Cave\CaveEntrance	
+	4122393694	Cave			\Default Work Unit\Master Audio Bus\AUX\Region_Cave\Cave	
+	4158999182	Dungeon_MezzanineRoom			\Default Work Unit\Master Audio Bus\AUX\Region_Dungeon\Dungeon_MezzanineRoom	
+
+Effect plug-ins	ID	Name	Type				Notes
+	139774454	WAG_Dungeon_Core (Custom)	Wwise RoomVerb			
+	168443289	Hall_Medium (Custom)	Wwise RoomVerb			
+	169932277	Phone_Booth (Custom)	Wwise RoomVerb			
+	384632663	WAG_Dungeon_Core	Wwise RoomVerb			
+	454472624	Room_Large (Custom)	Wwise RoomVerb			
+	484143915	RoomVerb (Custom)	Wwise RoomVerb			
+	518529364	RoomVerb (Custom)	Wwise RoomVerb			
+	695005218	Room_Large (Custom)	Wwise RoomVerb			
+	797128152	Echoes_Linear (Custom)	Wwise Delay			
+	857303486	RoomVerb (Custom)	Wwise RoomVerb			
+	996041025	Echoes_Linear (Custom)	Wwise Delay			
+	1783154876	WAG_Cave	Wwise RoomVerb			
+	2439616960	WAG_Dungeon_Entrance	Wwise RoomVerb			
 
 Audio Devices	ID	Name	Type				Notes
 	2317455096	No_Output	No Output			

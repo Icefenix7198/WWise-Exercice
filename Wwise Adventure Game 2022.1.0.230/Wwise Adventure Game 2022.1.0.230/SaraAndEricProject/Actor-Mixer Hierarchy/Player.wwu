@@ -1283,9 +1283,21 @@
 												</ItemList>
 											</Grouping>
 											<Grouping>
+												<SwitchRef Name="Sand" ID="{E0068244-D290-4032-B682-DEE52664AFD5}"/>
+												<ItemList>
+													<ItemRef Name="BAS_Impact_Axe_SurfaceType_Dirt" ID="{DB94A300-CEDE-4F39-ACEF-17C8F1601B1E}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
 												<SwitchRef Name="Stone" ID="{1D27CB49-9F95-4A22-9F0F-2C5AB236A255}"/>
 												<ItemList>
 													<ItemRef Name="BAS_Impact_Axe_SurfaceType_Stone" ID="{7C697359-EE9B-47CA-9D3B-1BA6B9ACCC23}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Wood" ID="{B3B51B67-2766-45FE-8408-A47394204EAB}"/>
+												<ItemList>
+													<ItemRef Name="BAS_Impact_Axe_SurfaceType_Barrel" ID="{AB3EEAF1-E303-4841-B78C-E387A84612C7}"/>
 												</ItemList>
 											</Grouping>
 											<Grouping>
@@ -1298,6 +1310,12 @@
 												<SwitchRef Name="Dirt" ID="{64ADB491-2051-4196-AFE3-ECE2C9D165F7}"/>
 												<ItemList>
 													<ItemRef Name="BAS_Impact_Axe_SurfaceType_Dirt" ID="{DB94A300-CEDE-4F39-ACEF-17C8F1601B1E}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Rubble" ID="{37F653E5-3F14-460C-953E-1A6DD2F75216}"/>
+												<ItemList>
+													<ItemRef Name="BAS_Impact_Axe_SurfaceType_Stone" ID="{7C697359-EE9B-47CA-9D3B-1BA6B9ACCC23}"/>
 												</ItemList>
 											</Grouping>
 											<Grouping>
@@ -1515,6 +1533,12 @@
 												</ItemList>
 											</Grouping>
 											<Grouping>
+												<SwitchRef Name="Sand" ID="{E0068244-D290-4032-B682-DEE52664AFD5}"/>
+												<ItemList>
+													<ItemRef Name="BAS_Impact_Dagger_SurfaceType_Dirt" ID="{263BB0CC-4A28-4F81-8997-4753233F1CCF}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
 												<SwitchRef Name="Stone" ID="{1D27CB49-9F95-4A22-9F0F-2C5AB236A255}"/>
 												<ItemList>
 													<ItemRef Name="BAS_Impact_Dagger_SurfaceType_Stone" ID="{D5757A9F-841A-49B5-8D26-68D339BD847F}"/>
@@ -1536,6 +1560,12 @@
 												<SwitchRef Name="Dirt" ID="{64ADB491-2051-4196-AFE3-ECE2C9D165F7}"/>
 												<ItemList>
 													<ItemRef Name="BAS_Impact_Dagger_SurfaceType_Dirt" ID="{263BB0CC-4A28-4F81-8997-4753233F1CCF}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Rubble" ID="{37F653E5-3F14-460C-953E-1A6DD2F75216}"/>
+												<ItemList>
+													<ItemRef Name="BAS_Impact_Dagger_SurfaceType_Stone" ID="{D5757A9F-841A-49B5-8D26-68D339BD847F}"/>
 												</ItemList>
 											</Grouping>
 											<Grouping>

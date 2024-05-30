@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="133642231" Type="User" Language="SFX" Hash="{F9EAE3CB-3271-58D4-98E9-42592BDCB47C}">
+		<SoundBank Id="133642231" Type="User" Language="SFX" Hash="{12591E1B-2023-45F8-4639-115E9656D9E1}">
 			<ShortName>General</ShortName>
 			<Path>General.bnk</Path>
 			<Media>
@@ -59,7 +59,7 @@
 				</File>
 				<File Id="88321504" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Ambient_Emitters\BAS_WindMillBlade_01.wav</ShortName>
-					<CachePath>SFX/Ambient_Emitters/BAS_WindMillBlade_01_10C4C929.wem</CachePath>
+					<CachePath>SFX/Ambient_Emitters/BAS_WindMillBlade_01_D79FB2B7.wem</CachePath>
 				</File>
 				<File Id="91193396" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Ambient_Emitters\BAS_ForestBirds.wav</ShortName>
@@ -747,9 +747,21 @@
 									</MediaRefs>
 								</SwitchContainer>
 								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="4064446173" Id="803837735"/>
+									<MediaRefs>
+										<MediaRef Id="575747498"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
 									<SwitchValue GroupType="Switch" GroupId="4064446173" Id="1216965916"/>
 									<MediaRefs>
 										<MediaRef Id="939600526"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="4064446173" Id="2058049674"/>
+									<MediaRefs>
+										<MediaRef Id="2329849"/>
 									</MediaRefs>
 								</SwitchContainer>
 								<SwitchContainer>
@@ -762,6 +774,12 @@
 									<SwitchValue GroupType="Switch" GroupId="4064446173" Id="2195636714"/>
 									<MediaRefs>
 										<MediaRef Id="575747498"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="4064446173" Id="286660663"/>
+									<MediaRefs>
+										<MediaRef Id="939600526"/>
 									</MediaRefs>
 								</SwitchContainer>
 								<SwitchContainer>
@@ -788,6 +806,12 @@
 									</MediaRefs>
 								</SwitchContainer>
 								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="4064446173" Id="803837735"/>
+									<MediaRefs>
+										<MediaRef Id="273133733"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
 									<SwitchValue GroupType="Switch" GroupId="4064446173" Id="1216965916"/>
 									<MediaRefs>
 										<MediaRef Id="875178330"/>
@@ -809,6 +833,12 @@
 									<SwitchValue GroupType="Switch" GroupId="4064446173" Id="2195636714"/>
 									<MediaRefs>
 										<MediaRef Id="273133733"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="4064446173" Id="286660663"/>
+									<MediaRefs>
+										<MediaRef Id="875178330"/>
 									</MediaRefs>
 								</SwitchContainer>
 								<SwitchContainer>
@@ -995,18 +1025,121 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{5BA560EF-34B9-DC0C-CEBB-8061C4CCB204}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{5395F23E-6ABD-CE9A-D783-FBBAA7B7AD3E}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
+				<Custom>
+					<Plugin Id="139774454" Name="WAG_Dungeon_Core (Custom)" LibName="Wwise RoomVerb" LibId="7733251"/>
+					<Plugin Id="168443289" Name="Hall_Medium (Custom)" LibName="Wwise RoomVerb" LibId="7733251"/>
+					<Plugin Id="169932277" Name="Phone_Booth (Custom)" LibName="Wwise RoomVerb" LibId="7733251"/>
+					<Plugin Id="454472624" Name="Room_Large (Custom)" LibName="Wwise RoomVerb" LibId="7733251"/>
+					<Plugin Id="484143915" Name="RoomVerb (Custom)" LibName="Wwise RoomVerb" LibId="7733251"/>
+					<Plugin Id="518529364" Name="RoomVerb (Custom)" LibName="Wwise RoomVerb" LibId="7733251"/>
+					<Plugin Id="695005218" Name="Room_Large (Custom)" LibName="Wwise RoomVerb" LibId="7733251"/>
+					<Plugin Id="797128152" Name="Echoes_Linear (Custom)" LibName="Wwise Delay" LibId="6946819"/>
+					<Plugin Id="857303486" Name="RoomVerb (Custom)" LibName="Wwise RoomVerb" LibId="7733251"/>
+					<Plugin Id="996041025" Name="Echoes_Linear (Custom)" LibName="Wwise Delay" LibId="6946819"/>
+				</Custom>
+				<ShareSets>
+					<Plugin Id="384632663" Name="WAG_Dungeon_Core" LibName="Wwise RoomVerb" LibId="7733251"/>
+					<Plugin Id="1783154876" Name="WAG_Cave" LibName="Wwise RoomVerb" LibId="7733251"/>
+					<Plugin Id="2439616960" Name="WAG_Dungeon_Entrance" LibName="Wwise RoomVerb" LibId="7733251"/>
+				</ShareSets>
 				<AudioDevices>
 					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
 					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
 				</AudioDevices>
 			</Plugins>
 			<Busses>
+				<Bus Id="983310469" Name="AUX"/>
+				<Bus Id="1269715591" Name="Region_Cave"/>
+				<Bus Id="3334061918" Name="Region_Dungeon"/>
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
+			<AuxBusses>
+				<AuxBus Id="243931001" Name="Dungeon_Forge">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="139774454"/>
+						</Custom>
+					</PluginRefs>
+				</AuxBus>
+				<AuxBus Id="425911480" Name="Dungeon_Library_Statue">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="857303486"/>
+						</Custom>
+					</PluginRefs>
+				</AuxBus>
+				<AuxBus Id="567469275" Name="Dungeon_PathToForge">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="168443289"/>
+						</Custom>
+					</PluginRefs>
+				</AuxBus>
+				<AuxBus Id="1156828694" Name="Dungeon_Entrance">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="2439616960"/>
+						</ShareSets>
+					</PluginRefs>
+				</AuxBus>
+				<AuxBus Id="1941785149" Name="Dungeon_Library">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="695005218"/>
+						</Custom>
+					</PluginRefs>
+				</AuxBus>
+				<AuxBus Id="2026127448" Name="Dungeon_MezzanineRoomEntrance">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="484143915"/>
+						</Custom>
+					</PluginRefs>
+				</AuxBus>
+				<AuxBus Id="2106540524" Name="Dungeon_RoadToCore">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="169932277"/>
+						</Custom>
+					</PluginRefs>
+				</AuxBus>
+				<AuxBus Id="2213850905" Name="Dungeon_Core">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="384632663"/>
+						</ShareSets>
+					</PluginRefs>
+				</AuxBus>
+				<AuxBus Id="3352684520" Name="CaveEntrance">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="454472624"/>
+							<PluginRef Id="797128152"/>
+						</Custom>
+					</PluginRefs>
+				</AuxBus>
+				<AuxBus Id="4122393694" Name="Cave">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="996041025"/>
+						</Custom>
+						<ShareSets>
+							<PluginRef Id="1783154876"/>
+						</ShareSets>
+					</PluginRefs>
+				</AuxBus>
+				<AuxBus Id="4158999182" Name="Dungeon_MezzanineRoom">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="518529364"/>
+						</Custom>
+					</PluginRefs>
+				</AuxBus>
+			</AuxBusses>
 			<GameParameters>
 				<GameParameter Id="207908541" Name="Time_of_Day"/>
 				<GameParameter Id="1333239961" Name="MenuSlider_Master_Volume"/>
@@ -1060,5 +1193,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{14360DEC-46A6-C3DF-7A73-F19DFCF77F66}</FileHash>
+	<FileHash>{23010A69-953A-1657-FB82-17259EEAAD68}</FileHash>
 </SoundBanksInfo>

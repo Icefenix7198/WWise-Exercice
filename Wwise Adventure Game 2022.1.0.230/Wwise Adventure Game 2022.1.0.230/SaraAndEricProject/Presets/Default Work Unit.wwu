@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{A5DD6C60-DBB5-48B4-B3AC-FD3CA090EC6C}" SchemaVersion="110">
 	<Presets>
-		<WorkUnit Name="Default Work Unit" ID="{A5DD6C60-DBB5-48B4-B3AC-FD3CA090EC6C}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{A5DD6C60-DBB5-48B4-B3AC-FD3CA090EC6C}" PersistMode="Standalone">
+			<ChildrenList>
+				<Effect Name="Echoes_Linear (Custom)" ID="{D40037FD-6181-473B-A427-C3BCD373EEC9}" PluginName="Wwise Delay" CompanyID="0" PluginID="106" PluginType="3">
+					<PropertyList>
+						<Property Name="DelayTime" Type="Real32" Value="0.31"/>
+						<Property Name="FeedbackEnabled" Type="bool" Value="False"/>
+						<Property Name="WetDryMix" Type="Real32" Value="12"/>
+					</PropertyList>
+				</Effect>
+			</ChildrenList>
+		</WorkUnit>
 	</Presets>
 </WwiseDocument>
