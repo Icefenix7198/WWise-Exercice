@@ -4,6 +4,7 @@
 		<WorkUnit Name="Default Work Unit" ID="{5A0B451D-69E6-4E49-BB1C-22CCEF625B49}" PersistMode="Standalone">
 			<ChildrenList>
 				<WorkUnit Name="Ambient" ID="{F1BE841C-13CA-4B70-BFB8-64DE6A4DE1F4}" PersistMode="Reference"/>
+				<WorkUnit Name="Gameplay" ID="{8E28DD24-7B63-44BF-A51E-FF900DD22518}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</GameParameters>

@@ -22,6 +22,7 @@
 				<Property Name="Event Action List\{6E8FC4E7-C774-4F99-B9E2-EB79E4EDC1BA}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{780E6219-4C19-4FB3-A5B5-7F4E619C3B95}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{802A2DB2-7415-47BF-95D8-F55D34E958F3}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{82B374DD-E07A-425C-9046-96008CEB9B8A}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{8B0A27CD-C3B4-42CC-A36C-373498EEFF75}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{8B7664F7-4D89-4FA7-9A20-FB1102FBAE05}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{8B8994F8-240D-4A0A-8D38-A4516F5CC1B6}\x64_Expand States" Type="string" Value=""/>
@@ -60,12 +61,15 @@
 				<Property Name="GenerateSoundBanks\x64_SelectedPlatforms" Type="string" Value="Ox56uMymkkSLOjMvDKL/SA=="/>
 				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value=""/>
 				<Property Name="HardwareController\CurrentSession" Type="string" Value="{00000000-0000-0000-0000-000000000000}"/>
+				<Property Name="Interactive Music\x64_{43354CAA-2163-49E6-8119-0184EBA4A91B} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwP8dxHMdxHDpAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
+				<Property Name="Interactive Music\x64_{E392E7BC-39BF-44D3-9913-E3B76C777B20} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwP6uqqqqqimBAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
 				<Property Name="MeterView\LastObject1" Type="string" Value="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
 				<Property Name="MeterView\MeterMode1" Type="int32" Value="1"/>
 				<Property Name="MeterView\MeterMode1Viewpoint0" Type="int32" Value="1"/>
 				<Property Name="MeterView\MeterMode1Viewpoint1" Type="int32" Value="2"/>
 				<Property Name="MeterView\MeterMode1Viewpoint2" Type="int32" Value="3"/>
 				<Property Name="MeterView\MeterMode1Viewpoint3" Type="int32" Value="0"/>
+				<Property Name="Mixing Desk\GroupCollapse\x64_{E8110C0D-4DB9-400A-82BD-412AFCD3D32E}" Type="string" Value=""/>
 				<Property Name="Mixing Desk\LastSession" Type="string" Value="{00000000-0000-0000-0000-000000000000}"/>
 				<Property Name="MonitoringManager\GameObjectFilter\GameObjectFilterVersion" Type="int32" Value="1"/>
 				<Property Name="MonitoringManager\GameObjectFilter\GameObjectFiltersEnable" Type="bool" Value="True"/>

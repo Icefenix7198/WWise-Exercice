@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{8E28DD24-7B63-44BF-A51E-FF900DD22518}" SchemaVersion="110" RootDocumentID="{5A0B451D-69E6-4E49-BB1C-22CCEF625B49}" ParentDocumentID="{5A0B451D-69E6-4E49-BB1C-22CCEF625B49}">
+	<GameParameters>
+		<WorkUnit Name="Gameplay" ID="{8E28DD24-7B63-44BF-A51E-FF900DD22518}" OwnerID="{5A0B451D-69E6-4E49-BB1C-22CCEF625B49}" PersistMode="Nested">
+			<ChildrenList>
+				<GameParameter Name="MenuSlider_Master_Volume" ID="{61639684-F600-4F29-99D9-7FC7FAAFDB13}"/>
+				<GameParameter Name="MenuSlider_Music_Volume" ID="{24B84EB4-EC10-48D2-BDDD-040FE38F66AA}"/>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

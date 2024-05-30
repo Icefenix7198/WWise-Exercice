@@ -1,0 +1,1246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{7FF6296B-D546-4259-BF98-B92E5CE84747}" SchemaVersion="110">
+	<InteractiveMusic>
+		<WorkUnit Name="Music" ID="{7FF6296B-D546-4259-BF98-B92E5CE84747}" PersistMode="Standalone">
+			<ChildrenList>
+				<MusicSwitchContainer Name="Regions" ID="{5E0E76DF-F3F5-4784-B42D-3DC78C1B4CB5}" ShortID="721049918">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E7FDB04F-959B-40F8-A265-1809A007B02E}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0EC6DD7C-8D4E-4D6E-A0C9-7F2F0EBC26B6}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicSegment Name="Cave_Silent_WwizardHouse_120BPM_L8M_P0" ID="{E392E7BC-39BF-44D3-9913-E3B76C777B20}" ShortID="640566427">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="9000"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E7FDB04F-959B-40F8-A265-1809A007B02E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0EC6DD7C-8D4E-4D6E-A0C9-7F2F0EBC26B6}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Cave_Silent_WwizardHouse_120BPM_L8M_P0" ID="{0AA60852-6E74-4262-AB2F-454AB5B4C20E}" ShortID="551000617">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0EC6DD7C-8D4E-4D6E-A0C9-7F2F0EBC26B6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Cave_Silent_WwizardHouse_120BPM_L8M_P0" ID="{9DA2C8A6-FD50-4299-A3C5-E850E3B03273}">
+											<Language>SFX</Language>
+											<AudioFile>Cave_Silent_WwizardHouse_120BPM_L8M_P0.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="122131809"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{41E02B0F-BEDB-47D3-A483-5C00A4938BBA}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{F36C60AF-406F-4A15-A0EC-561BAC453FB4}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Cave_Silent_WwizardHouse_120BPM_L8M_P0" ID="{F8455EA5-4393-444B-9052-ECC3FF5A3C43}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="9000"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Cave_Silent_WwizardHouse_120BPM_L8M_P0" ID="{9DA2C8A6-FD50-4299-A3C5-E850E3B03273}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="Music_Regions" ID="{C940D127-3FF4-42A5-8C48-9F2C9CC31B7F}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="Cave" ID="{A219FC86-3FE3-4088-866E-B5229F315B87}"/>
+										<CustomState Name="" ID="{C19699DF-0B72-49D8-A273-BD1839C182AA}" ShortID="426597990"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Village" ID="{6A7660EF-3E91-423C-9F5A-D447F70E1AE4}"/>
+										<CustomState Name="" ID="{F799BD9A-B76D-46F6-963C-03FD55C9C197}" ShortID="439568117">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="WwizardHouse" ID="{43D82E91-3C00-43F3-93E5-81CB6E5749B8}"/>
+										<CustomState Name="" ID="{DED2781C-8701-4103-93CF-FC7A62772112}" ShortID="998994666">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Silent" ID="{C4AE3A06-373B-44FA-ACA2-CFFAF595D764}"/>
+										<CustomState Name="" ID="{1F6D756F-42C7-4EE5-ABFC-9E9B41E90748}" ShortID="121370276">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Nowhere" ID="{530982B5-E35B-45B0-AB23-35F0D3496F30}"/>
+										<CustomState Name="" ID="{14C44E84-9D76-4494-9E35-4C67EB8B8A68}" ShortID="827178940">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Dungeon" ID="{8BBAAB9B-9E10-4A15-B6B3-C183E17E5439}"/>
+										<CustomState Name="" ID="{9AE815CC-EA66-4C81-9007-C35520EB8F32}" ShortID="94542437">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Desert" ID="{3A98D7D4-7F0A-4B33-81B9-29C5C9420E0D}"/>
+										<CustomState Name="" ID="{ED8CC552-7539-440F-A7E0-4C0D160DE432}" ShortID="391385850">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Woodlands" ID="{54298AF8-36AB-4ED8-BD35-74B2AD856C26}"/>
+										<CustomState Name="" ID="{2C36AB3B-96FF-483E-86AB-BB59CC17DCE3}" ShortID="342131515">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{32D2E108-88DD-4003-9507-3631072B7C5A}"/>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{B0E2DB00-6574-428C-A0B2-66E41BDE30E3}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="9000"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
+						<MusicSegment Name="Desert_120BPM_4_4_L8M_P0" ID="{43354CAA-2163-49E6-8119-0184EBA4A91B}" ShortID="895235720">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="36000"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E7FDB04F-959B-40F8-A265-1809A007B02E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0EC6DD7C-8D4E-4D6E-A0C9-7F2F0EBC26B6}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Desert_120BPM_4_4_L8M_P0" ID="{A1956ADE-62C1-4FD6-B4AB-EECE2C664ED4}" ShortID="373553891">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0EC6DD7C-8D4E-4D6E-A0C9-7F2F0EBC26B6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Desert_120BPM_4_4_L8M_P0" ID="{119EAFFD-10DB-4A30-85EC-E0511E85BE26}">
+											<Language>SFX</Language>
+											<AudioFile>Desert_120BPM_4_4_L8M_P0.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="357711258"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{1D63D023-DE27-42B9-9845-F098B389DBED}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{7E5699DD-7F62-4EE5-AD3B-B86479DDBF9A}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Desert_120BPM_4_4_L8M_P0" ID="{0BD00163-7A41-400F-84A7-2BD4137E9C1D}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="36000"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Desert_120BPM_4_4_L8M_P0" ID="{119EAFFD-10DB-4A30-85EC-E0511E85BE26}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="Music_Regions" ID="{C940D127-3FF4-42A5-8C48-9F2C9CC31B7F}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="Cave" ID="{A219FC86-3FE3-4088-866E-B5229F315B87}"/>
+										<CustomState Name="" ID="{34D651A4-E710-4E36-B21E-F0DED465A530}" ShortID="982336576">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Village" ID="{6A7660EF-3E91-423C-9F5A-D447F70E1AE4}"/>
+										<CustomState Name="" ID="{B997ECF3-0C2B-4152-887E-331CAAE19EFD}" ShortID="683349319">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="WwizardHouse" ID="{43D82E91-3C00-43F3-93E5-81CB6E5749B8}"/>
+										<CustomState Name="" ID="{C7EAD846-473F-4521-8074-85B818591770}" ShortID="200574101">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Silent" ID="{C4AE3A06-373B-44FA-ACA2-CFFAF595D764}"/>
+										<CustomState Name="" ID="{B192B331-759C-4D59-AADB-3C326E64727B}" ShortID="1029619952">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Nowhere" ID="{530982B5-E35B-45B0-AB23-35F0D3496F30}"/>
+										<CustomState Name="" ID="{7F7C325E-0E4D-47F3-B168-F50DB0E795C8}" ShortID="647512710">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Dungeon" ID="{8BBAAB9B-9E10-4A15-B6B3-C183E17E5439}"/>
+										<CustomState Name="" ID="{FA5718AE-09B2-4C7E-8F88-0F43DFD907F0}" ShortID="979851101">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Desert" ID="{3A98D7D4-7F0A-4B33-81B9-29C5C9420E0D}"/>
+										<CustomState Name="" ID="{E91E3872-1252-4DD4-9DA2-31FEF0DB6224}" ShortID="1046250657"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Woodlands" ID="{54298AF8-36AB-4ED8-BD35-74B2AD856C26}"/>
+										<CustomState Name="" ID="{3F2B590E-9576-4DBD-A060-87D5188C4353}" ShortID="446484602">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{BB5DCCA5-EFEC-4072-B562-C18081D8C312}"/>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{0E9529DA-8125-4689-9BA7-8FE22C4FCBFF}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="36000"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
+						<MusicSegment Name="Dungeon_120BPM_4_4_L8M_P1M" ID="{A564CE3C-EF04-46D5-B2F0-D59AC3A9C7C2}" ShortID="259848986">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="22000"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E7FDB04F-959B-40F8-A265-1809A007B02E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0EC6DD7C-8D4E-4D6E-A0C9-7F2F0EBC26B6}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Dungeon_120BPM_4_4_L8M_P1M" ID="{066DDECC-64AD-4EE9-83C4-53B4A5E1ABEE}" ShortID="599695349">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0EC6DD7C-8D4E-4D6E-A0C9-7F2F0EBC26B6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Dungeon_120BPM_4_4_L8M_P1M" ID="{CE281AA0-7FA4-4C7B-8930-64E2DF2FA485}">
+											<Language>SFX</Language>
+											<AudioFile>Dungeon_120BPM_4_4_L8M_P1M.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="218635874"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{32B3C10D-0D83-4B1C-9E42-D9F8C3B6586D}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{201F26E9-C584-4DD0-9C8B-5F47F81F539B}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Dungeon_120BPM_4_4_L8M_P1M" ID="{61B68818-CB97-499F-A6D2-425C367D31FE}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="22000"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Dungeon_120BPM_4_4_L8M_P1M" ID="{CE281AA0-7FA4-4C7B-8930-64E2DF2FA485}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="Music_Regions" ID="{C940D127-3FF4-42A5-8C48-9F2C9CC31B7F}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="Cave" ID="{A219FC86-3FE3-4088-866E-B5229F315B87}"/>
+										<CustomState Name="" ID="{C5B3A829-95C8-4A8F-A898-6F7C5130945A}" ShortID="231748845">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Village" ID="{6A7660EF-3E91-423C-9F5A-D447F70E1AE4}"/>
+										<CustomState Name="" ID="{0D9A4923-C04F-4D13-A9AA-F2C1A6A34F4F}" ShortID="196469128">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="WwizardHouse" ID="{43D82E91-3C00-43F3-93E5-81CB6E5749B8}"/>
+										<CustomState Name="" ID="{B845050D-B721-49BD-9F8D-F3335C2CAF77}" ShortID="764996261">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Silent" ID="{C4AE3A06-373B-44FA-ACA2-CFFAF595D764}"/>
+										<CustomState Name="" ID="{85C6AAE4-2ACB-48CA-B097-BD64160C56F4}" ShortID="544737522">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Nowhere" ID="{530982B5-E35B-45B0-AB23-35F0D3496F30}"/>
+										<CustomState Name="" ID="{73B4D338-FF39-4143-894C-9DAFEA87266B}" ShortID="672203121">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Dungeon" ID="{8BBAAB9B-9E10-4A15-B6B3-C183E17E5439}"/>
+										<CustomState Name="" ID="{6894CA4C-5AA4-43B1-820B-25B64E76703F}" ShortID="184448416"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Desert" ID="{3A98D7D4-7F0A-4B33-81B9-29C5C9420E0D}"/>
+										<CustomState Name="" ID="{7749D109-C384-4426-8BC1-AD7619F59CF2}" ShortID="719523815">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Woodlands" ID="{54298AF8-36AB-4ED8-BD35-74B2AD856C26}"/>
+										<CustomState Name="" ID="{6D5ED739-A51B-4E5E-8246-1870CDD00B56}" ShortID="1006012615">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{75386A19-5227-485A-AAF0-FF66F75E1CBA}"/>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{F690C96F-4D2D-43B3-85A8-F0121BEC223A}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="22000"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
+						<MusicSegment Name="Nowhere_120BPM_4_4_L8M_P0" ID="{25FA9671-77D8-4C64-BBAB-69FC275C7043}" ShortID="313537010">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="16000"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E7FDB04F-959B-40F8-A265-1809A007B02E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0EC6DD7C-8D4E-4D6E-A0C9-7F2F0EBC26B6}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Nowhere_120BPM_4_4_L8M_P0" ID="{C88F17CE-C2FB-4A73-9ED3-D385FD1655F3}" ShortID="1066299004">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0EC6DD7C-8D4E-4D6E-A0C9-7F2F0EBC26B6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Nowhere_120BPM_4_4_L8M_P0" ID="{A581A7DF-EE6C-4B7B-B82A-94038939AC5F}">
+											<Language>SFX</Language>
+											<AudioFile>Nowhere_120BPM_4_4_L8M_P0.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="618660712"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{F0CD3760-F803-4EEB-9DF8-C5B21E3C42CA}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{A2BC3F58-07C4-448D-A6E4-AA96547422BD}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Nowhere_120BPM_4_4_L8M_P0" ID="{B413116D-300A-4810-AE66-B8545A84359F}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="16000"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Nowhere_120BPM_4_4_L8M_P0" ID="{A581A7DF-EE6C-4B7B-B82A-94038939AC5F}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="Music_Regions" ID="{C940D127-3FF4-42A5-8C48-9F2C9CC31B7F}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="Cave" ID="{A219FC86-3FE3-4088-866E-B5229F315B87}"/>
+										<CustomState Name="" ID="{CE76B770-9E3C-4B60-A4B3-A7D67A5E5AE1}" ShortID="181965684">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Village" ID="{6A7660EF-3E91-423C-9F5A-D447F70E1AE4}"/>
+										<CustomState Name="" ID="{04958456-7FE3-4556-ADDD-5A9351E5609A}" ShortID="683914977">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="WwizardHouse" ID="{43D82E91-3C00-43F3-93E5-81CB6E5749B8}"/>
+										<CustomState Name="" ID="{FCB2AE02-87A3-4C92-BC52-37FBBEB4BD8E}" ShortID="689853492">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Silent" ID="{C4AE3A06-373B-44FA-ACA2-CFFAF595D764}"/>
+										<CustomState Name="" ID="{3CCFBD24-65FE-48F0-8E81-1ACE88FE37B3}" ShortID="365643117">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Nowhere" ID="{530982B5-E35B-45B0-AB23-35F0D3496F30}"/>
+										<CustomState Name="" ID="{AF357C50-0157-478F-ADFC-A7596B39FFDB}" ShortID="407904290"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Dungeon" ID="{8BBAAB9B-9E10-4A15-B6B3-C183E17E5439}"/>
+										<CustomState Name="" ID="{9783E1A9-BB3E-4248-B75D-44E0C9B324A1}" ShortID="742219517">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Desert" ID="{3A98D7D4-7F0A-4B33-81B9-29C5C9420E0D}"/>
+										<CustomState Name="" ID="{92E4FE65-95FC-482C-A522-3A176FDB4817}" ShortID="75542811">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Woodlands" ID="{54298AF8-36AB-4ED8-BD35-74B2AD856C26}"/>
+										<CustomState Name="" ID="{32C4AD6F-6ED9-4932-B567-A409E900A5A6}" ShortID="754442522">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{C93B5996-9115-496D-BDB3-F7B0CB7C6C18}"/>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{CD532634-00B5-4B66-B6E5-5707FCBC63B2}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="16000"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
+						<MusicSegment Name="Village_120BPM_4_4_L8M_P1M" ID="{276B776C-C184-435A-BB35-34D39526E31C}" ShortID="983765288">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="22000"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E7FDB04F-959B-40F8-A265-1809A007B02E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0EC6DD7C-8D4E-4D6E-A0C9-7F2F0EBC26B6}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Village_120BPM_4_4_L8M_P1M" ID="{54ED70EB-2231-4DD9-AD58-72593EB717FB}" ShortID="153191763">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0EC6DD7C-8D4E-4D6E-A0C9-7F2F0EBC26B6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Village_120BPM_4_4_L8M_P1M" ID="{EA4498A3-BB00-4AD4-8AC8-AFE9DB25744A}">
+											<Language>SFX</Language>
+											<AudioFile>Village_120BPM_4_4_L8M_P1M.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="968526032"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{7D03942D-AE9B-4001-B08C-DE987F9987EB}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{F7231C81-9AAD-41C9-830E-FB019D790DE1}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Village_120BPM_4_4_L8M_P1M" ID="{7D977786-7574-4B6D-A825-54FAF7B2A998}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="22000"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Village_120BPM_4_4_L8M_P1M" ID="{EA4498A3-BB00-4AD4-8AC8-AFE9DB25744A}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="Music_Regions" ID="{C940D127-3FF4-42A5-8C48-9F2C9CC31B7F}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="Cave" ID="{A219FC86-3FE3-4088-866E-B5229F315B87}"/>
+										<CustomState Name="" ID="{84486D1C-2CCD-4611-A6CB-F7E1E178313B}" ShortID="764813508">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Village" ID="{6A7660EF-3E91-423C-9F5A-D447F70E1AE4}"/>
+										<CustomState Name="" ID="{2221F829-DB3F-4C01-8386-3EF04B87F405}" ShortID="98736155"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="WwizardHouse" ID="{43D82E91-3C00-43F3-93E5-81CB6E5749B8}"/>
+										<CustomState Name="" ID="{E03AAE1D-1C5E-4268-A274-8318E88CAF62}" ShortID="270327363">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Silent" ID="{C4AE3A06-373B-44FA-ACA2-CFFAF595D764}"/>
+										<CustomState Name="" ID="{24BC1FCF-EA15-420F-B3E2-5BB194B89253}" ShortID="696723045">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Nowhere" ID="{530982B5-E35B-45B0-AB23-35F0D3496F30}"/>
+										<CustomState Name="" ID="{60136C04-189B-4227-9C2C-30EDA0B3B3F0}" ShortID="1029830612">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Dungeon" ID="{8BBAAB9B-9E10-4A15-B6B3-C183E17E5439}"/>
+										<CustomState Name="" ID="{085C71A2-17B2-4DE8-9954-2D0DD1800CDA}" ShortID="1041793678">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Desert" ID="{3A98D7D4-7F0A-4B33-81B9-29C5C9420E0D}"/>
+										<CustomState Name="" ID="{94C1ED00-5AD9-400D-852B-93E6A10B01F2}" ShortID="30202881">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Woodlands" ID="{54298AF8-36AB-4ED8-BD35-74B2AD856C26}"/>
+										<CustomState Name="" ID="{75BD072F-02B0-491B-864E-EB23CDE623F6}" ShortID="698584733">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{CA521ABD-83BE-4745-939C-44DF9A6F454A}"/>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{DBC69C79-05F1-44C3-A7A7-D6324202804C}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="22000"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
+						<MusicSegment Name="Woodlands_Day_120BPM_4_4_L8M_P0" ID="{63BA6CB0-9CC9-4911-AFD6-B6342B75D5E3}" ShortID="365220520">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="20000"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E7FDB04F-959B-40F8-A265-1809A007B02E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0EC6DD7C-8D4E-4D6E-A0C9-7F2F0EBC26B6}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Woodlands_Day_120BPM_4_4_L8M_P0" ID="{2DF4BA52-FCD1-458C-A635-F42268CFFDF7}" ShortID="92461327">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0EC6DD7C-8D4E-4D6E-A0C9-7F2F0EBC26B6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Woodlands_Day_120BPM_4_4_L8M_P0" ID="{0535BA0B-8BD7-4C39-AF75-4BB357B874D5}">
+											<Language>SFX</Language>
+											<AudioFile>Woodlands_Day_120BPM_4_4_L8M_P0.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="66589207"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{9349922D-12D9-4BAD-BEF5-622B6E9CC97E}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{8C4C5BE4-0E0E-4AEF-BFAB-DB60E4B3040B}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Woodlands_Day_120BPM_4_4_L8M_P0" ID="{F7C35807-F611-42AD-BF50-CB9B162FDA06}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="20000"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Woodlands_Day_120BPM_4_4_L8M_P0" ID="{0535BA0B-8BD7-4C39-AF75-4BB357B874D5}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="Music_Regions" ID="{C940D127-3FF4-42A5-8C48-9F2C9CC31B7F}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="Cave" ID="{A219FC86-3FE3-4088-866E-B5229F315B87}"/>
+										<CustomState Name="" ID="{5EA7D062-1244-40E1-A9D6-BFEB26665A0E}" ShortID="721387362">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Village" ID="{6A7660EF-3E91-423C-9F5A-D447F70E1AE4}"/>
+										<CustomState Name="" ID="{3239F536-160F-4637-AD57-1415B75E5923}" ShortID="70364269">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="WwizardHouse" ID="{43D82E91-3C00-43F3-93E5-81CB6E5749B8}"/>
+										<CustomState Name="" ID="{E8F3BF83-2B04-4C91-A9CD-76104DD081A6}" ShortID="625658923">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Silent" ID="{C4AE3A06-373B-44FA-ACA2-CFFAF595D764}"/>
+										<CustomState Name="" ID="{094FD14E-1EA0-4248-98CD-33E8DB70EF23}" ShortID="374218297">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Nowhere" ID="{530982B5-E35B-45B0-AB23-35F0D3496F30}"/>
+										<CustomState Name="" ID="{B80E1344-4976-43C4-B90C-C66265F60286}" ShortID="857924">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Dungeon" ID="{8BBAAB9B-9E10-4A15-B6B3-C183E17E5439}"/>
+										<CustomState Name="" ID="{16021ECA-907E-43E8-8800-03FA54B302A1}" ShortID="826138448">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Desert" ID="{3A98D7D4-7F0A-4B33-81B9-29C5C9420E0D}"/>
+										<CustomState Name="" ID="{16C58487-4EA7-46F0-BA45-A21042DB6E53}" ShortID="1041770393">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Woodlands" ID="{54298AF8-36AB-4ED8-BD35-74B2AD856C26}"/>
+										<CustomState Name="" ID="{CAD7566B-214D-44AD-8C1B-3BD598E8BE45}" ShortID="7916495"/>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{E3983E09-D5CD-44CE-AA3C-9C3880C25651}"/>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{55B7AF42-7F80-47E0-A7AD-E0760644595C}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="20000"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
+						<MusicSegment Name="Woodlands_Night_120BPM_4_4_L8M_P1M" ID="{46447F87-D648-4AE0-B65C-957EBCDF982F}" ShortID="139982711">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="20000"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E7FDB04F-959B-40F8-A265-1809A007B02E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0EC6DD7C-8D4E-4D6E-A0C9-7F2F0EBC26B6}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Woodlands_Night_120BPM_4_4_L8M_P1M" ID="{17C32D6F-D536-4454-B4B9-FAB9440DE255}" ShortID="916792721">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0EC6DD7C-8D4E-4D6E-A0C9-7F2F0EBC26B6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Woodlands_Night_120BPM_4_4_L8M_P1M" ID="{6C5FC8B0-5A85-4119-8973-AA116F6520E1}">
+											<Language>SFX</Language>
+											<AudioFile>Woodlands_Night_120BPM_4_4_L8M_P1M.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="706031973"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{87BCA0C6-F527-4888-8C20-2E4AC400CC62}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{C2755E3D-D09E-4E26-8ACC-EAF1D5E519C1}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Woodlands_Night_120BPM_4_4_L8M_P1M" ID="{B8BB34F8-AA0C-4BE9-A51C-B842B330B3E5}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="20000"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Woodlands_Night_120BPM_4_4_L8M_P1M" ID="{6C5FC8B0-5A85-4119-8973-AA116F6520E1}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="Music_Regions" ID="{C940D127-3FF4-42A5-8C48-9F2C9CC31B7F}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="Cave" ID="{A219FC86-3FE3-4088-866E-B5229F315B87}"/>
+										<CustomState Name="" ID="{181A8F7D-507A-4B0D-A24E-3E11A66B2423}" ShortID="499808181">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Village" ID="{6A7660EF-3E91-423C-9F5A-D447F70E1AE4}"/>
+										<CustomState Name="" ID="{6249994E-E351-452F-AF4D-7D7EEAE5872D}" ShortID="698834902">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="WwizardHouse" ID="{43D82E91-3C00-43F3-93E5-81CB6E5749B8}"/>
+										<CustomState Name="" ID="{73BF198F-A0EC-4E07-BEDC-4469373C2C1A}" ShortID="453036702">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Silent" ID="{C4AE3A06-373B-44FA-ACA2-CFFAF595D764}"/>
+										<CustomState Name="" ID="{A52D9F15-C587-4A39-BF94-AA85C2CB50B8}" ShortID="64870542">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Nowhere" ID="{530982B5-E35B-45B0-AB23-35F0D3496F30}"/>
+										<CustomState Name="" ID="{BDDB9DED-49B9-49BD-9A6E-CFB3F4F7F619}" ShortID="689718022">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Dungeon" ID="{8BBAAB9B-9E10-4A15-B6B3-C183E17E5439}"/>
+										<CustomState Name="" ID="{0B592682-08BF-459F-99BF-11493CC338D1}" ShortID="738998129">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Desert" ID="{3A98D7D4-7F0A-4B33-81B9-29C5C9420E0D}"/>
+										<CustomState Name="" ID="{B93C1E09-47CF-4CCE-90C9-753D164B5B14}" ShortID="104952448">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Woodlands" ID="{54298AF8-36AB-4ED8-BD35-74B2AD856C26}"/>
+										<CustomState Name="" ID="{F8A44055-ABAA-45C9-A177-7DB83E7F4B2A}" ShortID="626718138"/>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{5DC697C3-0BE1-4635-8966-BFFBDB0FB1DB}"/>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{56A07636-E185-4CB4-A5D7-815728A39C3E}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="20000"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
+					</ChildrenList>
+					<StateInfo>
+						<StateGroupList>
+							<StateGroupInfo MusicSyncType="2">
+								<StateGroupRef Name="Music_Regions" ID="{C940D127-3FF4-42A5-8C48-9F2C9CC31B7F}"/>
+							</StateGroupInfo>
+						</StateGroupList>
+						<CustomStateList>
+							<CustomState>
+								<StateRef Name="Cave" ID="{A219FC86-3FE3-4088-866E-B5229F315B87}"/>
+								<CustomState Name="" ID="{48600439-BDA2-45DC-A28D-00EFEBE7B207}" ShortID="608008332"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Village" ID="{6A7660EF-3E91-423C-9F5A-D447F70E1AE4}"/>
+								<CustomState Name="" ID="{BCC24F83-812C-4CC0-BD02-20DC6D8368BA}" ShortID="802330511"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="WwizardHouse" ID="{43D82E91-3C00-43F3-93E5-81CB6E5749B8}"/>
+								<CustomState Name="" ID="{A2580EBD-BFB8-4FEE-98B2-0F04797C35F8}" ShortID="846531945"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Silent" ID="{C4AE3A06-373B-44FA-ACA2-CFFAF595D764}"/>
+								<CustomState Name="" ID="{4887AC12-191F-4773-B45F-EDC564EEFCD6}" ShortID="338347915"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Nowhere" ID="{530982B5-E35B-45B0-AB23-35F0D3496F30}"/>
+								<CustomState Name="" ID="{F92E79A2-F609-402C-8E76-0109C9D78569}" ShortID="106768606"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Dungeon" ID="{8BBAAB9B-9E10-4A15-B6B3-C183E17E5439}"/>
+								<CustomState Name="" ID="{0D671A5A-2AAF-42B3-8395-4D74D0873EF9}" ShortID="253752244"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Desert" ID="{3A98D7D4-7F0A-4B33-81B9-29C5C9420E0D}"/>
+								<CustomState Name="" ID="{87A7D8E9-8C82-45C8-922D-11360FA5E4C2}" ShortID="52240364"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Woodlands" ID="{54298AF8-36AB-4ED8-BD35-74B2AD856C26}"/>
+								<CustomState Name="" ID="{946B660F-EC46-456C-BB4A-8F065BEDBD14}" ShortID="428327709"/>
+							</CustomState>
+						</CustomStateList>
+					</StateInfo>
+					<TransitionList>
+						<MusicTransition Name="Root" ID="{4DA7AE02-4D31-48AC-9D01-E0485A5D9449}">
+							<PropertyList>
+								<Property Name="IsFolder" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicTransition Name="Transition" ID="{DA4E508F-2B84-42A3-A84E-5C7DF65F5238}">
+									<TransitionInfo/>
+								</MusicTransition>
+							</ChildrenList>
+							<TransitionInfo/>
+						</MusicTransition>
+					</TransitionList>
+					<ObjectLists>
+						<ObjectList Name="RTPC">
+							<Reference>
+								<Local>
+									<RTPC Name="" ID="{15A92580-5894-4A15-93D2-EDF64613E7CE}" ShortID="210676914">
+										<PropertyList>
+											<Property Name="PropertyName" Type="string" Value="Volume"/>
+										</PropertyList>
+										<ReferenceList>
+											<Reference Name="ControlInput">
+												<ObjectRef Name="MenuSlider_Music_Volume" ID="{24B84EB4-EC10-48D2-BDDD-040FE38F66AA}" WorkUnitID="{8E28DD24-7B63-44BF-A51E-FF900DD22518}"/>
+											</Reference>
+											<Reference Name="Curve">
+												<Custom>
+													<Curve Name="" ID="{379DC2BD-B7B4-4572-BDD2-EA3A758D6FF6}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</RTPC>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
+					<ArgumentList>
+						<ArgumentRef Name="Music_Regions" ID="{C940D127-3FF4-42A5-8C48-9F2C9CC31B7F}"/>
+					</ArgumentList>
+					<EntryList>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Cave" ID="{A219FC86-3FE3-4088-866E-B5229F315B87}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="Cave_Silent_WwizardHouse_120BPM_L8M_P0" ID="{E392E7BC-39BF-44D3-9913-E3B76C777B20}" WorkUnitID="{7FF6296B-D546-4259-BF98-B92E5CE84747}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Desert" ID="{3A98D7D4-7F0A-4B33-81B9-29C5C9420E0D}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="Desert_120BPM_4_4_L8M_P0" ID="{43354CAA-2163-49E6-8119-0184EBA4A91B}" WorkUnitID="{7FF6296B-D546-4259-BF98-B92E5CE84747}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Dungeon" ID="{8BBAAB9B-9E10-4A15-B6B3-C183E17E5439}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="Dungeon_120BPM_4_4_L8M_P1M" ID="{A564CE3C-EF04-46D5-B2F0-D59AC3A9C7C2}" WorkUnitID="{7FF6296B-D546-4259-BF98-B92E5CE84747}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Nowhere" ID="{530982B5-E35B-45B0-AB23-35F0D3496F30}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="Nowhere_120BPM_4_4_L8M_P0" ID="{25FA9671-77D8-4C64-BBAB-69FC275C7043}" WorkUnitID="{7FF6296B-D546-4259-BF98-B92E5CE84747}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Village" ID="{6A7660EF-3E91-423C-9F5A-D447F70E1AE4}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="Village_120BPM_4_4_L8M_P1M" ID="{276B776C-C184-435A-BB35-34D39526E31C}" WorkUnitID="{7FF6296B-D546-4259-BF98-B92E5CE84747}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Woodlands" ID="{54298AF8-36AB-4ED8-BD35-74B2AD856C26}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="Woodlands_Day_120BPM_4_4_L8M_P0" ID="{63BA6CB0-9CC9-4911-AFD6-B6342B75D5E3}" WorkUnitID="{7FF6296B-D546-4259-BF98-B92E5CE84747}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="WwizardHouse" ID="{43D82E91-3C00-43F3-93E5-81CB6E5749B8}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="Village_120BPM_4_4_L8M_P1M" ID="{276B776C-C184-435A-BB35-34D39526E31C}" WorkUnitID="{7FF6296B-D546-4259-BF98-B92E5CE84747}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+					</EntryList>
+				</MusicSwitchContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</InteractiveMusic>
+</WwiseDocument>
