@@ -111,10 +111,71 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Ambient_Region_Dungeon" ID="{316E7709-6AF3-47F1-A04E-980733254319}"/>
-						<Event Name="Ambient_Region_PineForest" ID="{948DDA5C-63ED-415A-88D2-2ECBDFC1A6F9}"/>
-						<Event Name="Ambient_Region_Village" ID="{47CF45F5-6451-4531-8676-752224E747EF}"/>
-						<Event Name="Ambient_Region_Woodlands" ID="{F5697352-B094-4D99-A490-71456F1D7342}"/>
+						<Event Name="Ambient_Region_Dungeon" ID="{316E7709-6AF3-47F1-A04E-980733254319}">
+							<ChildrenList>
+								<Action Name="" ID="{F9DCA85D-0F12-43A8-B1A6-66FE1DFD7023}" ShortID="702285259">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="BAS_amb_dungeon_day_background_loop_01" ID="{6AA5763B-C1C9-4F21-9ABC-8EAD49301E81}" WorkUnitID="{4CE8606E-B974-4DD2-8066-4B8317102F93}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Ambient_Region_PineForest" ID="{948DDA5C-63ED-415A-88D2-2ECBDFC1A6F9}">
+							<ChildrenList>
+								<Action Name="" ID="{F3051065-87AA-4386-9785-69FC9C2C2FBA}" ShortID="800036891">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="BAS_amb_pineforest_night_background_loop_01" ID="{09B42F65-1617-4B8E-9886-79F39FF4E7AE}" WorkUnitID="{4CE8606E-B974-4DD2-8066-4B8317102F93}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{D3E06CF5-BB82-43E7-BD32-783E9488D4DC}" ShortID="761151934">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="BAS_amb_forest_day_background_loop_01" ID="{CE921160-B9F7-495D-83F6-6D296E67AF45}" WorkUnitID="{4CE8606E-B974-4DD2-8066-4B8317102F93}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Ambient_Region_Village" ID="{47CF45F5-6451-4531-8676-752224E747EF}">
+							<ChildrenList>
+								<Action Name="" ID="{C624E925-5015-401C-8585-DB9FD577EBB6}" ShortID="925501287">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="BAS_amb_village_day_background_loop_01" ID="{27A9EB33-1387-427C-A203-0B27083141AC}" WorkUnitID="{4CE8606E-B974-4DD2-8066-4B8317102F93}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{3CDFA930-FB77-4CDB-B878-2BC8384E6288}" ShortID="753653888">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="BAS_amb_village_night_background_loop_01" ID="{1BCEA03B-7008-4EC3-85DF-408A21E25A3B}" WorkUnitID="{4CE8606E-B974-4DD2-8066-4B8317102F93}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Ambient_Region_Woodlands" ID="{F5697352-B094-4D99-A490-71456F1D7342}">
+							<ChildrenList>
+								<Action Name="" ID="{85BA6D20-38E7-4384-BAE4-3618E448D78C}" ShortID="426224955">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="BAS_amb_forest_day_background_loop_01" ID="{CE921160-B9F7-495D-83F6-6D296E67AF45}" WorkUnitID="{4CE8606E-B974-4DD2-8066-4B8317102F93}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{0859A18F-DDA9-42E9-8715-B6F2EDB1B7FC}" ShortID="874950333">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="amb_forest_nigth" ID="{47E23685-7C05-482F-8029-B895790E56E4}" WorkUnitID="{4CE8606E-B974-4DD2-8066-4B8317102F93}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 						<Event Name="Ambient_River" ID="{780E6219-4C19-4FB3-A5B5-7F4E619C3B95}">
 							<ChildrenList>
 								<Action Name="" ID="{A74F77D3-EF30-4792-A1BD-9A4E6D5D5B74}" ShortID="310257351">
@@ -137,7 +198,17 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Ambient_WaterDrop" ID="{8B7664F7-4D89-4FA7-9A20-FB1102FBAE05}"/>
+						<Event Name="Ambient_WaterDrop" ID="{8B7664F7-4D89-4FA7-9A20-FB1102FBAE05}">
+							<ChildrenList>
+								<Action Name="" ID="{7FD60E1A-1707-40C6-9FF4-935C0722D4BC}" ShortID="136306874">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="BAS_WaterDrops" ID="{3AC2D70F-52D4-461B-906E-27283EF25AF9}" WorkUnitID="{4CE8606E-B974-4DD2-8066-4B8317102F93}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 						<Event Name="Ambient_Waterfall" ID="{802A2DB2-7415-47BF-95D8-F55D34E958F3}">
 							<ChildrenList>
 								<Action Name="" ID="{ED093898-37DF-4591-956A-610237237018}" ShortID="1024018178">
@@ -149,8 +220,35 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Ambient_Windmill" ID="{34C570A9-8A88-44CD-986D-BED89F9D385E}"/>
-						<Event Name="Ambient_WoodlandsElements" ID="{12332E73-517D-4FE1-B02C-1D659677DE24}"/>
+						<Event Name="Ambient_Windmill" ID="{34C570A9-8A88-44CD-986D-BED89F9D385E}">
+							<ChildrenList>
+								<Action Name="" ID="{E0FB7C69-2C31-4CCA-AC20-AEB54A5CE65D}" ShortID="372915865">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="BAS_WindMillBlade_01" ID="{B77C8A84-7FEB-42B9-92CA-C348A2235356}" WorkUnitID="{4CE8606E-B974-4DD2-8066-4B8317102F93}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{4F02F9E8-B8A5-41EB-9D09-75519D69CCF1}" ShortID="379741219">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="BAS_WindMillBlade" ID="{15707845-5E70-4044-97EA-1448648ACD6B}" WorkUnitID="{4CE8606E-B974-4DD2-8066-4B8317102F93}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Ambient_WoodlandsElements" ID="{12332E73-517D-4FE1-B02C-1D659677DE24}">
+							<ChildrenList>
+								<Action Name="" ID="{D47F7A37-C83F-45F7-9A04-5D2FE0CAB018}" ShortID="629576874">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="BAS_ForestBirds" ID="{6E1BD46F-B028-433C-A99A-57AC8E0F4158}" WorkUnitID="{4CE8606E-B974-4DD2-8066-4B8317102F93}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>
