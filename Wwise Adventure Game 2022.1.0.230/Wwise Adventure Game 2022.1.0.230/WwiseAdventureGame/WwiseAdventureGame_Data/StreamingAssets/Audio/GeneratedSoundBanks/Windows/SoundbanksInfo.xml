@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="133642231" Type="User" Language="SFX" Hash="{96ABACBF-0B2C-1E7D-E598-34151F651287}">
+		<SoundBank Id="133642231" Type="User" Language="SFX" Hash="{C6ECBF9D-9F91-2C44-B9B6-24D3E68D506C}">
 			<ShortName>General</ShortName>
 			<Path>General.bnk</Path>
 			<Media>
@@ -879,6 +879,9 @@
 					</MediaRefs>
 				</Event>
 			</Events>
+			<GameParameters>
+				<GameParameter Id="207908541" Name="Time_of_Day"/>
+			</GameParameters>
 			<SwitchGroups>
 				<SwitchGroup Id="3251833556" Name="Player_Weapon_Type">
 					<Switches>
@@ -905,7 +908,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{FC9B4A8D-EB07-CB0A-BECC-3E071881B472}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{E8932274-D300-032F-B651-C63E6968BB01}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -953,5 +956,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{107E8F61-8F6D-CECC-0D3A-61CD5CD1CF82}</FileHash>
+	<FileHash>{00BDCC9F-09E5-DBDA-B43B-83870FED124D}</FileHash>
 </SoundBanksInfo>

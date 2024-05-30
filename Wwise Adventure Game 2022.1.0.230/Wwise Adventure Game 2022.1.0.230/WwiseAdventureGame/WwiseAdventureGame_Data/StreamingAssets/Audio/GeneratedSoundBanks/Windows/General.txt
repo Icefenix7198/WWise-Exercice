@@ -63,6 +63,9 @@ Switch	ID	Name	Switch Group			Notes
 	3098439042	Crate	Surface_Type			
 	4248645337	Grass	Surface_Type			
 
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	207908541	Time_of_Day			\Default Work Unit\Ambient\Time_of_Day	
+
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	2329849	BAS_Impact_Axe_SurfaceType_Barrel	C:\Users\Eric\OneDrive\Documentos\GitHub\WWise-Exercice\Wwise Adventure Game 2022.1.0.230\Wwise Adventure Game 2022.1.0.230\SaraAndEricProject\.cache\Windows\SFX\BAS_Impact_Axe_SurfaceType_Barrel_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Weapon\Impact_Weapon_Type\Impact_Axe_Surface_Type\BAS_Impact_Axe_SurfaceType_Barrel		107642
 	5548248	BAS_Player_Footstep_sand_walk_01	C:\Users\Eric\OneDrive\Documentos\GitHub\WWise-Exercice\Wwise Adventure Game 2022.1.0.230\Wwise Adventure Game 2022.1.0.230\SaraAndEricProject\.cache\Windows\SFX\Sand\BAS_Player_Footstep_sand_walk_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Footsteps\Sand\BAS_Player_Footstep_sand_walk_01		40918
