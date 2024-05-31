@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="133642231" Type="User" Language="SFX" Hash="{12591E1B-2023-45F8-4639-115E9656D9E1}">
+		<SoundBank Id="133642231" Type="User" Language="SFX" Hash="{269C9D6B-30F9-633B-27CE-8BBBC58977A0}">
 			<ShortName>General</ShortName>
 			<Path>General.bnk</Path>
 			<Media>
@@ -498,6 +498,10 @@
 					<MediaRefs>
 						<MediaRef Id="665526035"/>
 					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="3352684520" Name="CaveEntrance"/>
+						<AuxBusRef Id="4122393694" Name="Cave"/>
+					</AuxBusRefs>
 				</Event>
 				<Event Id="3408705206" Name="Ambient_Region_Desert">
 					<MediaRefs>
@@ -509,6 +513,12 @@
 					<MediaRefs>
 						<MediaRef Id="699376918"/>
 					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="243931001" Name="Dungeon_Forge"/>
+						<AuxBusRef Id="567469275" Name="Dungeon_PathToForge"/>
+						<AuxBusRef Id="1156828694" Name="Dungeon_Entrance"/>
+						<AuxBusRef Id="2106540524" Name="Dungeon_RoadToCore"/>
+					</AuxBusRefs>
 				</Event>
 				<Event Id="808171864" Name="Ambient_Region_PineForest">
 					<MediaRefs>
@@ -650,6 +660,12 @@
 					</SwitchContainers>
 				</Event>
 				<Event Id="2453392179" Name="Player_Footstep">
+					<AuxBusRefs>
+						<AuxBusRef Id="1156828694" Name="Dungeon_Entrance"/>
+						<AuxBusRef Id="2213850905" Name="Dungeon_Core"/>
+						<AuxBusRef Id="3352684520" Name="CaveEntrance"/>
+						<AuxBusRef Id="4122393694" Name="Cave"/>
+					</AuxBusRefs>
 					<SwitchContainers>
 						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="4064446173" Id="803837735"/>
@@ -1193,5 +1209,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{23010A69-953A-1657-FB82-17259EEAAD68}</FileHash>
+	<FileHash>{80358C57-95C4-AFAA-D838-3D2C80361681}</FileHash>
 </SoundBanksInfo>
